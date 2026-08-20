@@ -1,0 +1,5 @@
+class addition():
+  def sum(self,x,y):
+    print(x+y)
+o=addition()
+o.sum(10,20)
