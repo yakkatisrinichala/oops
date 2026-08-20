@@ -1,0 +1,14 @@
+class calculator():
+    def sum(self,x,y):
+        print(x+y)
+    def sub(self,x,y):
+        print(x-y)
+    def mul(self,x,y):
+        print(x*y)
+    def div(self,x,y):
+        print(x/y)
+o=calculator()
+o.sum(10,20)//30
+o.sub(10,20)//-10
+o.mul(10,20)//200
+o.div(10,20)//0.5
