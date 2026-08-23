@@ -1,0 +1,9 @@
+class Animal:
+   def eat(self):
+       print("I can eat!")
+class Dog(Animal): # Inherits from Animal
+   def bark(self):
+       print("I can bark!")
+dog = Dog()
+dog.eat() # Output: I can eat!
+dog.bark() # Output: I can bark!
