@@ -1,0 +1,12 @@
+class Computer:
+   def __init__(self):
+       self.__max_price = 900 # Private attribute
+   def sell(self):
+       print(f"Selling Price: {self.__max_price}")
+   def set_price(self, price):
+       if price > 0:
+           self.__max_price = price
+comp = Computer()
+comp.sell() # Output: Selling Price: 900
+comp.set_price(1000)
+comp.sell() # Output: Selling Price: 1000
