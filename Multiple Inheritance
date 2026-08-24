@@ -1,0 +1,11 @@
+class Battery:
+   def charge(self):
+       print("Charging battery")
+class GPS:
+   def location(self):
+       print("Getting location")
+class SmartPhone(Battery, GPS):
+   pass
+phone = SmartPhone()
+phone.charge()
+phone.location()
