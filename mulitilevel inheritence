@@ -1,0 +1,21 @@
+class add():
+    def sum(self, a, b):
+        print(a + b)
+
+class sub(add):
+    def sub(self, a, b):
+        print(a - b)
+
+class mul(sub):
+    def multi(self, a, b):
+        print(a * b)
+
+class div(mul):
+    def divide(self, a, b):
+        print(a / b)
+
+o = div()
+o.sum(10, 20)
+o.sub(10, 20)
+o.multi(10, 20)
+o.divide(10, 20)
