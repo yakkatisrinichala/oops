@@ -1,0 +1,11 @@
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# Creating an object
+dog = Dog("Rex", 4)
+
+# Accessing instance variables from outside the class
+print(dog.name)  # Output: Rex
+print(dog.age)   # Output: 4
