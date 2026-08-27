@@ -1,0 +1,11 @@
+class Person:
+    species = "Homo sapiens"  # Class attribute
+    
+    def __init__(self, name, age):
+        self.name = name  # Instance attribute
+        self.age = age    # Instance attribute
+
+# Creating an instance of Person
+person1 = Person("Alice", 30)
+print(person1.name)  # Instance attribute, Output: Alice
+print(person1.species)  # Class attribute, Output: Homo sapiens
